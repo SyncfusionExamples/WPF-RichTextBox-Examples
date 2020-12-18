@@ -1,0 +1,30 @@
+﻿<Window x:Class="Automtic_Suggestion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Automtic_Suggestion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        xmlns:RichTextBoxAdv="clr-namespace:Syncfusion.Windows.Controls.RichTextBoxAdv;assembly=Syncfusion.SfRichTextBoxAdv.Wpf">
+    <Window.Resources>
+        <x:Array Type="{x:Type RichTextBoxAdv:NameSuggestionItem}" x:Key="suggestionItems">
+            <RichTextBoxAdv:NameSuggestionItem Name = "Nancy Davolio" Link="mailto:nancy.davolio@northwindtraders.com" ImageSource="/Assets/People_Circle0.png" />
+            <RichTextBoxAdv:NameSuggestionItem Name = "Andrew Fuller" Link="mailto:andrew.fuller@northwindtraders.com" ImageSource="/Assets/People_Circle5.png"/>
+            <RichTextBoxAdv:NameSuggestionItem Name = "Steven Buchanan" Link="mailto:steven.buchanan@northwindtraders.com" ImageSource="/Assets/People_Circle18.png"/>
+        </x:Array>
+    </Window.Resources>
+    <Grid>
+        <RichTextBoxAdv:SfRichTextBoxAdv x:Name="richTextboxadv" LayoutType="Continuous">
+            <RichTextBoxAdv:SfRichTextBoxAdv.SuggestionSettings>
+                <RichTextBoxAdv:SuggestionSettings>
+                    <RichTextBoxAdv:SuggestionSettings.SuggestionProviders>
+                        <RichTextBoxAdv:NameSuggestionProvider     ItemsSource="{StaticResource suggestionItems}">
+                        </RichTextBoxAdv:NameSuggestionProvider>
+                    </RichTextBoxAdv:SuggestionSettings.SuggestionProviders>
+                </RichTextBoxAdv:SuggestionSettings>
+            </RichTextBoxAdv:SfRichTextBoxAdv.SuggestionSettings>
+        </RichTextBoxAdv:SfRichTextBoxAdv>
+    </Grid>
+
+</Window>
