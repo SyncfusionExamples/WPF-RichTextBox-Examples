@@ -1,2 +1,2 @@
 # Multiple Suggestion Provider
-This sample demonstrate, how to use two or more mention characters at a time in SfRichTextBoxAdv control.
+This sample demonstrate, how to use two suggestion providers. Here we have used ‘@’ and ‘#’ as mentions characters in SfRichTextBoxAdv control.
