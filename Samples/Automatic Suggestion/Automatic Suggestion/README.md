@@ -1,2 +1,2 @@
 # Automatic Suggestion
-This sample demonstrate, how to enable spell checker in SfRichTextBoxAdv control.
+This sample demonstrate, how to enable the spell checker in SfRichTextBoxAdv control.
