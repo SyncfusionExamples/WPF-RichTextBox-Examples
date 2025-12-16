@@ -37,8 +37,6 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Compression.Base" Version="32.1.19" />
     <PackageReference Include="Syncfusion.DocIO.Wpf" Version="32.1.19" />
-    <PackageReference Include="Syncfusion.Edit.WPF" Version="32.1.19" />
-    <PackageReference Include="Syncfusion.GridCommon.Wpf" Version="32.1.19" />
     <PackageReference Include="Syncfusion.Licensing" Version="32.1.19" />
     <PackageReference Include="Syncfusion.Markdown" Version="32.1.19" />
     <PackageReference Include="Syncfusion.OfficeChart.Base" Version="32.1.19" />
