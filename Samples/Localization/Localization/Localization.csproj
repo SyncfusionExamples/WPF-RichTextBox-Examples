@@ -43,6 +43,7 @@
     <PackageReference Include="Syncfusion.Markdown" Version="32.1.19" />
     <PackageReference Include="Syncfusion.OfficeChart.Base" Version="32.1.19" />
     <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="32.1.19" />
     <PackageReference Include="Syncfusion.Shared.WPF" Version="32.1.19" />
     <PackageReference Include="Syncfusion.Tools.WPF" Version="32.1.19" />
     <Reference Include="System" />
