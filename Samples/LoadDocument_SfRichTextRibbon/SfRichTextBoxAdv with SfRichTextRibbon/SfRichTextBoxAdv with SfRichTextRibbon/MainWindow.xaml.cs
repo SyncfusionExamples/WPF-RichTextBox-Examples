@@ -13,6 +13,9 @@ namespace SfRichTextBoxAdv_with_SfRichTextRibbon
         public MainWindow()
         {
             InitializeComponent();
+
+            // Loads the specified Word document into the SfRichTextBoxAdv control.
+            richTextBoxAdv.Load(@"Assets/GettingStarted.docx");
         }
         #endregion
     }

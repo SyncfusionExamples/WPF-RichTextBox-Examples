@@ -9,6 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Syncfusion:SfRichTextBoxAdv 
-            x:Name="richTextBoxAdv"/>
+            x:Name="richTextBoxAdv" 
+            Background="#F1F1F1" />
     </Grid>
 </Window>
